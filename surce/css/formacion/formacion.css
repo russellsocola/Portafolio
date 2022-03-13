@@ -1,0 +1,11 @@
+.formacion{
+    align-items: center;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 0 auto;
+    width: 80vw;
+}
+.formacion__titulo{
+    font-size: 30px;
+}

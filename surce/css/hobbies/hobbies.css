@@ -1,0 +1,12 @@
+.hobbies{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 80vh;   
+    margin: 1rem auto;
+    margin: 0.75rem auto;
+    width: 80vw;
+}
+.hobbies__titulo{
+    font-size: 30px;
+}

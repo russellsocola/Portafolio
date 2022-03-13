@@ -1,0 +1,41 @@
+.cabecera{
+    background: #000;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    height: 3rem;
+    justify-content: space-around;
+    padding: 0 1rem;
+    text-align: center;
+    width: 97.65%;
+}
+.nombre__cabecera{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0.75rem 0;
+    text-transform: none;
+    text-decoration: none;
+}
+.nombre__cabecera span {
+    color: aqua;
+}
+.nombre__cabecera:hover{
+    font-size: 25px;
+}
+.menu__lista{
+    display: flex;
+}
+.menu__item{
+    list-style: none;
+    margin: 1rem 0;
+}
+.menu__link{
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+.menu__link:hover{
+    color: aqua;
+    font-size: 20px;
+    transition: 0.4s;
+}

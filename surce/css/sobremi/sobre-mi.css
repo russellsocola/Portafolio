@@ -1,0 +1,50 @@
+.cuerpo{
+    background: #191c32
+}
+.main{
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    margin: 0 auto;
+}
+.sobre-mi__titulo{
+    font-size: 3em;
+}
+.sobre-mi{
+    align-items: center;
+    display: grid;
+    height: 80vh;
+    grid-template-columns: repeat(2,1fr);
+    margin: 0.75rem auto;
+    width: 80vw;
+    justify-items: center;
+}
+
+span{
+    color: aqua;
+}
+.sobre-mi__parrafo{
+    font-size: 20px;
+}
+.downloadcv{
+    background: aqua;
+    border: none;
+    border-radius: 5px;
+    color: #111;
+    font-weight: bold;
+    margin-top: 1rem;
+    padding: 0.7rem 1rem;
+    cursor: pointer;
+    box-shadow:  10px 10px 30px 15px black;
+    
+}
+.downloadcv:hover{
+    background: #fff;
+    box-shadow: none;
+}
+.sobre-mi__photoPerfil{
+    background: url(../../img/perfil.jpeg) no-repeat center/ cover;
+    border-radius:30%;
+    height: 250px;
+    width: 250px;
+}

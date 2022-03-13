@@ -1,0 +1,11 @@
+.skills{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 80vh;
+    width: 80vw;
+    margin: 0 auto;
+}
+.skills__titulo{
+    font-size: 30px;
+}
