@@ -2,16 +2,13 @@
     align-items: center;
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    height: 80vh;   
-    margin: 1rem auto;
     margin: 0.75rem auto;
-    width: 80vw;
 }
 .hobbies__contenido{
     background: #fdd;
     border: #fff solid;
-    margin: 10px 10px;
-    height: 25vh;
+    margin: 1.3rem 1.4rem;
+    height: 30vh;
     width: 15vw;
 }
 .hobbies__titulo{
@@ -22,12 +19,13 @@
 }
 .hobbies__parrafo{
     color: #111;
-    font-size: 20px;
+    font-weight: bold;
+    font-size: 25px;
     text-align: center;
 }
 .hobbies__img{
-    height: 45px;
-    width: 45px;
+    height: 7rem;
+    width: 7rem;
     align-content: center;
 }
 .hobbies__img__futbol{

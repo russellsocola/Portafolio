@@ -4,9 +4,9 @@
     font-family: 'Montserrat', sans-serif;
     height: 3rem;
     justify-content: space-around;
+    margin: 0 auto;
     padding: 0 1rem;
     text-align: center;
-    width: 97.65%;
 }
 .nombre__cabecera{
     color: white;

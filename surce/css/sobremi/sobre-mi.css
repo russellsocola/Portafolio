@@ -26,21 +26,27 @@ span{
 .sobre-mi__parrafo{
     font-size: 20px;
 }
-.downloadcv{
+.button{
     background: aqua;
     border: none;
     border-radius: 5px;
     color: #111;
     font-weight: bold;
+    margin-right: 1rem;
     margin-top: 1rem;
     padding: 0.7rem 1rem;
     cursor: pointer;
     box-shadow:  10px 10px 30px 15px black;
     
 }
-.downloadcv:hover{
+.button:hover{
     background: #fff;
     box-shadow: none;
+}
+.sobre-mi__button{
+    height: 1rem;
+    margin-right: 0.8rem;
+    width: 1rem;
 }
 .sobre-mi__photoPerfil{
     background: url(../../img/perfil.jpeg) no-repeat center/ cover;
