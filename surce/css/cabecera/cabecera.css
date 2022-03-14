@@ -22,6 +22,15 @@
 .nombre__cabecera:hover{
     font-size: 25px;
 }
+.cabecera__des{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 00.75rem 0;
+}
+.cabecera__des span{
+    color: aqua;
+}
 .menu__lista{
     display: flex;
 }

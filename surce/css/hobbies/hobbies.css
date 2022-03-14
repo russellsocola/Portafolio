@@ -1,12 +1,52 @@
 .hobbies{
     align-items: center;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(5,1fr);
     height: 80vh;   
     margin: 1rem auto;
     margin: 0.75rem auto;
     width: 80vw;
 }
+.hobbies__contenido{
+    background: #fdd;
+    border: #fff solid;
+    margin: 10px 10px;
+    height: 25vh;
+    width: 15vw;
+}
 .hobbies__titulo{
-    font-size: 30px;
+    font-size: 35px;
+    margin: 0 auto;
+    grid-column-start:1;
+    grid-column-end: 6;
+}
+.hobbies__parrafo{
+    color: #111;
+    font-size: 20px;
+    text-align: center;
+}
+.hobbies__img{
+    height: 45px;
+    width: 45px;
+    align-content: center;
+}
+.hobbies__img__futbol{
+    background: url(../../img/futbol.png) no-repeat center/cover;
+    margin: 0.5rem auto;
+}
+.hobbies__img__series{
+    background: url(../..//img/viendo-una-pelicula.png) no-repeat center/cover;
+    margin: 0.5rem auto;
+}
+.hobbies__img__bicicleta{
+    background: url(../../img/road-bike.png) no-repeat center/cover;
+    margin: 0.5rem auto;
+}
+.hobbies__img__musica{
+    background: url(../../img//auriculares.png) no-repeat center/cover;
+    margin: 0.5rem auto;
+}
+.hobbies__img__libros{
+    background: url(../../img/libro-abierto.png) no-repeat center/cover;
+    margin: 0.5rem auto;
 }
