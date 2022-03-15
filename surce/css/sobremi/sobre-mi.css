@@ -1,5 +1,6 @@
 .cuerpo{
-    background: #191c32
+    background: linear-gradient(to bottom,#191c32,#b3aadb);
+    
 }
 .main{
     height: 100%;

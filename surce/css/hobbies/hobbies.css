@@ -5,7 +5,7 @@
     margin: 0.75rem auto;
 }
 .hobbies__contenido{
-    background: #fdd;
+    background: linear-gradient(to bottom,#b3aadb,#191c32);
     border: #fff solid;
     margin: 1.3rem 1.4rem;
     height: 30vh;
