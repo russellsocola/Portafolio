@@ -1,11 +1,33 @@
 .formacion{
     align-items: center;
-    height: 80vh;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
     margin: 0 auto;
-    width: 80vw;
+    width: 90%;
+    
 }
 .formacion__titulo{
     font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.formacion__centros{
+    display: flex;
+    justify-content: space-around;
+}
+.formacion__centro{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+}
+.formacion__span{
+    color: #111;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    width: 300px;
+}
+.formacion__img{
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width: 300px;
 }

@@ -1,17 +1,13 @@
 .footer{    
     background: #000;
-    height: 10rem;
+    height: 20rem;
     width: 100%;
 }
-.contacto{
-    color: #fff;
-    height: 3rem;
-    margin: 0 auto;
-    padding: 0;
-    width: 100%;
-    
+.footer__contenedor{
+    width: 80%;
 }
 .contacto__titulo{
     color: #fff;
     font-size: 30px;    
+    text-align: center;
 }
