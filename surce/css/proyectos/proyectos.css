@@ -1,38 +1,47 @@
 .proyectos{
-    padding: 2rem 0;
-    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
     margin: 0 auto;
+    width: 90%;
 }
 .proyectos__titulo{
     font-weight: bold;
     font-size: 30px;
+    flex-basis: 100%;
     text-align: center;
 }
 
 .proyectos__ficheros{    
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
 }
 .proyecto__ejemplo{
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
     padding-top: 3rem;
 }
 .proyecto__iframe{
-    height: 400px;
     display: flex;
+    width: 25rem;
+    height: 25rem;
+    margin: 0 auto;
+    
 }
+
 .proyecto__buton{
-    display: inline-block;
-    margin-top: 20%;
+    display: flex;
+    margin: 12rem auto;
 }
+
 .proyecto__buton a button{
     background: aqua;
     border: none;
     border-radius: 5px;
     color: #111;
     font-weight: bold;
-    margin-right: 3rem;
+    margin: 1rem 1rem;
     padding: 0.7rem 1rem;
     cursor: pointer;
     box-shadow:  10px 10px 30px 15px black;
@@ -40,4 +49,23 @@
 .proyecto__buton a button:hover{
     background: #fff;
     box-shadow: none;
+}
+@media screen and (max-width:600px) {
+    
+    .proyecto__buton{
+        margin: 1rem auto;
+    }
+    .proyecto__iframe iframe{
+        width: 300px;
+        height: 250px;
+        margin: 0 auto;
+    }
+    .proyecto__iframe{
+        height: auto;
+        margin: 0 auto;
+    }
+    .proyecto__buton a button{
+        margin: 0.3rem 0.3rem;
+        font-size: 0.8rem;
+    }
 }

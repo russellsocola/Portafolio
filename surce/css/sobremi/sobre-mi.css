@@ -1,5 +1,7 @@
 .cuerpo{
     background: linear-gradient(to bottom,#191c32,#b3aadb);
+    width: 100%;
+    margin: 0 auto;
     
 }
 .main{
@@ -8,17 +10,18 @@
     color: #fff;
     margin: 0 auto;
 }
-.sobre-mi__titulo{
-    font-size: 3em;
-}
+
 .sobre-mi{
     align-items: center;
     display: grid;
-    height: 80vh;
+    height: auto;
     grid-template-columns: repeat(2,1fr);
     margin: 0.75rem auto;
     width: 80vw;
     justify-items: center;
+}
+.sobre-mi__titulo{
+    font-size: 3em;
 }
 
 span{
@@ -54,4 +57,21 @@ span{
     border-radius:30%;
     height: 250px;
     width: 250px;
+}
+
+@media screen and (max-width: 550px) {
+    .cuerpo{
+        width: 100%;
+    }
+    .sobre-mi{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+
+    }
+    .sobre-mi__photoPerfil{
+        margin: 1rem;
+    }
+
+    
 }

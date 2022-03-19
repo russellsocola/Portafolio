@@ -1,13 +1,49 @@
 .footer{    
     background: #000;
-    height: 20rem;
+    height: 100%;
     width: 100%;
 }
-.footer__contenedor{
+
+.contacto{
     width: 80%;
+    margin: 0 auto;
+    padding: 0.3rem;
 }
+
 .contacto__titulo{
     color: #fff;
     font-size: 30px;    
     text-align: center;
+    margin-bottom: 1rem;
+}
+.contacto-cajas{
+    margin: 1rem auto;
+}
+.nombre-padron{
+    color: #fff;
+    font-weight: bold;
+    margin: .5rem 0;
+}
+.input-padron{
+    display: block;
+    margin: 20px 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.enviar{
+    background: aqua;
+    border: none;
+    border-radius: 5px;
+    color: #111;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-right: 3rem;
+    padding: 0.7rem 1rem;
+    cursor: pointer;
+    box-shadow:  10px 10px 30px 15px black;
+}
+.enviar:hover{
+    background: #fff;
+    box-shadow: none;
 }
